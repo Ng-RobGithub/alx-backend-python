@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
+"""Module-level documentation."""
+
 from typing import Mapping, Any, TypeVar, Union
 
 # Define a type variable for the value type
 T = TypeVar('T')
+
 
 def safely_get_value(dct: Mapping, key: Any, default: T = None) -> Union[Any, T]:
     """Returns the value associated with the given key in the dictionary.
@@ -12,4 +15,3 @@ def safely_get_value(dct: Mapping, key: Any, default: T = None) -> Union[Any, T]
         return dct[key]
     else:
         return default
-    
