@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-'''Task 0's module.
+'''Async coroutine that waits for a random delay between 0 and max_delay
+seconds
 '''
 import asyncio
 import random
