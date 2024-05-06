@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Tasks
+ takes an integer max_delay and returns a asyncio.Task.
 """
 import asyncio
 from typing import Callable
