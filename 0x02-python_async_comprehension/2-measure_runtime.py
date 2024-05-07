@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+""" coroutine that will measure the total runtime and return it"""
+
 import asyncio
 import time
 
