@@ -3,6 +3,8 @@
 
 from typing import List
 
+async_generator = using('0-async_generator').async_generator
+
 
 async def async_comprehension() -> List[float]:
     """
