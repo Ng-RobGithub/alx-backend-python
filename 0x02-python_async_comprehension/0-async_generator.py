@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-
+""" a coroutine called async_generator that takes no arguments"""
 import asyncio
-from random import uniform
+import random
 from typing import Generator
 
 
