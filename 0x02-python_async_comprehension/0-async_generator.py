@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import asyncio
-import random
+from random import uniform
 from typing import Generator
 
 
