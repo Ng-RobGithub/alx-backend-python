@@ -5,10 +5,12 @@ test_client.py
 Integration tests for the GithubOrgClient
 """
 
-import unittest
-from unittest.mock import patch, Mock
-from parameterized import parameterized
 from client import GithubOrgClient
+from fixtures import TEST_PAYLOAD
+from parameterized import parameterized, parameterized_class
+import json
+import unittest
+from unittest.mock import patch, PropertyMock, Mock
 
 
 class TestGithubOrgClient(unittest.TestCase):
